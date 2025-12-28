@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://music-mode-recommendation-app.onrender.com/";
 
 export async function getModes() {
   const res = await fetch(`${BASE_URL}/api/modes`);
